@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    border: 0;
+    border-radius: 1rem;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.ptitulo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0;  
+    font-style: italic;  
+    color: indigo;
+}
+
+.stitulo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0;  
+    color:goldenrod 
+}
+
+
+.logo-home img {
+    max-width: 75%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.pokedex-home img{
+    max-width: 35%;
+    max-height: 50%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
