@@ -1,3 +1,3 @@
-Desafio Primeiros Passos JavaScript Orange Tech+ - DIO
+Desafio Primeiros Passos JavaScript DIO - Orange Tech+
 
 Pokedex
